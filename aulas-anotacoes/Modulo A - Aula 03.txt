@@ -1,0 +1,22 @@
+Modulo A: Aula 03 -  Curso em Video de JavaScript
+Referencias de Estudos
+
+Livros
+JavaScript: O Guia Definitivo
+https://www.amazon.com.br/JavaScript-Guia-Definitivo-David-Flanagan/dp/856583719X/ref=asc_df_856583719X/?tag=googleshopp00-20&linkCode=df0&hvadid=379765802390&hvpos=&hvnetw=g&hvrand=6202017176242660789&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1032134&hvtargid=pla-812161948788&psc=1
+
+JavaScript - Guia do Programador: Guia Completo das Funcionalidades de Linguagem JavaScript
+https://www.amazon.com.br/Javascript-Guia-Programador-Maur%C3%ADcio-Silva/dp/8575222481/ref=asc_df_8575222481/?tag=googleshopp00-20&linkCode=df0&hvadid=379748659420&hvpos=&hvnetw=g&hvrand=6202017176242660789&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1032134&hvtargid=pla-812887614897&psc=1
+
+
+Documentação
+Mozilla
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+ECMA
+https://www.ecma-international.org/publications/standards/Ecma-262.htm
+
+Instalações
+Google Chrome
+VSCode
+Node-JS
