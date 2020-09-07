@@ -1,0 +1,63 @@
+Modulo B: Aula 05
+
+comentarios em JavaScript
+// comentario em uma unica linha
+/* */ comentario de mais de uma linha
+
+Conceito de variaveis - 07:57min
+Sinal = (em JavaScript significa RECEBE)
+Importante 
+'=' significa Recebe
+'null' significa nenhum
+
+*No JavaScvript moderno, além de utilizar a palavra 'var', também podemos usar a palavra 'let'*
+
+Existem 3 formas de delimitar uma String no JavaScript
+
+Nome de uma variável(chamados Indicadores)
+* Podem começar com 'letra', '$' OU '_'
+* Não podem começar com 'numeros'
+* É possivel usar 'letras' ou 'numeros'
+* É possivel usar 'acentos' e 'simbolos'
+* Não podem conter 'espaços'
+* Não podem ser 'palavras reservadas' (ex. var)
+
+Dicas para nomes de Indicadores(variáveis)
+* 'Miúsculas' e 'minúsculas' fazem diferença
+* Tente escolher 'nomes coerentes' para variáveis
+* Evite se tornar um 'programador alfabeto' ou um 'programador contador'
+
+<Variáveis serve para guardar Dados>
+3 Tipos primitivos primordiais
+Numbers
+JavaScript não faz divisão de numeros inteiros ou quebrados.
+Ex. int = 15, 50, 60 / double = 50.50, 65.15, 90.89
+
+Strings
+Ex. "Google", 'JavaScript' `Maria`
+
+Boolean
+true / false
+verdadeiro / falso
+
+Outros Tipos (DataTypes)
+para ver o typo basta digitar typeof ver imagem Modulo B - Aula 05 - typeof
+
+number
+   Infinity
+   NaN
+string
+boolean
+null
+undefined
+object
+   array
+function
+
+<Lembre-se: Além do var podemos usar o let>
+
+teclas no node
+Ctrl+shift+' = para abrir termnial vscode
+Ctrl+L = limpar terminal
+.exit = sair do terminal node
+exit = sair terminal
