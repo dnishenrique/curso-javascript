@@ -1,0 +1,58 @@
+Modulo B: Aula 06
+
+Manipulação de Dados
+
+<- Feito ex002.html que esta na pasta aulas-praticas ->
+
+Concatenação
+o simbolo '+' serve para concatenar uma frase a um variavel
+Ex. 
+ var nome = window.prompt('Qual o seu nome?')
+ window.alert('É um grande prazer te conhecer, ' + nome)
+
+Criei a variavel var nome, e concatenei, junto ao alert, para que o que for escrito em nome, aparece em alert
+
+
+<- Feito ex003.html que esta na pasta aulas-praticas ->
+
+Concatenação
++ serve para acição como para concatenação
+(number + numeber) o + vai fazer a soma
+(string + string) o + vai fazer a concatenação
+
+**Conversões**
+
+***Importante o JavaScript é Case-sensitive, ou seja maiúsculo e minúscolo importam - no caso acima, tanto o N de Number, como o Int e Float, devem ter a primeira letra Maiúscula***
+
+String -> Numero(Number)
+window.prompt retorna uma String
+para convertermos uma string para um numero, podemos usar o 
+Number.parseInt(variavel) = isso retorna um numero inteiro
+Number.parseFloat(variavel) = isso retorna um numero real
+Number.parseFloat(variavel) = isso retorna um numero real
+Number(variavel) = ele automaticamente verifica se o numero é real ou inteiro
+
+Numero(Number) -> String
+String(variavel)
+variavel.toString()
+
+Formatando Strings
+var s = 'JavaScript'
+'Eu estou aprendendo s' //não faz interpolação
+'Eu estou aprendendo ' + s //usa concatenação
+`Eu estou aprendendo ${s}` //uso a `` não '', pois a `` é delimitação do que chamamos de template string
+ver imagem Modulo B - Aula 06 - Formatando Strings
+
+<- Feito ex004.html que esta na pasta aulas-praticas ->
+document.write = escrevo na tela
+var s = 'JavaScript'
+s.length // quantos caracteres a string tem
+s.toUpperCase() // tudo para 'MAIÚSCULAS'
+S.toLowerCase() // tudo para 'minusculas'
+
+Formatando Numeros(Number)
+var n1 = 1545.5
+n1.toFixed(2) //toFixed() acrecentou casas decimais - ex. toFixed(2) acrecentou 2 casas decimais n1 = 1545.50
+n1.toFixed(2).replace('.' , ',') // replace('' , '') Posso fazer trocas - ex. replace('.' , ',') troco o '.' pela ',' n1 = 1545,50
+n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}) //comando para deixar o valor formatador em Real, currency = dinheiro se mudar para USD, ela fica em Dolar
+ver imagem Modulo B - Aula 06 - Formatando Numeros
