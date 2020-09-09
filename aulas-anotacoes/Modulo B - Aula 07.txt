@@ -1,0 +1,67 @@
+Modulo B: Aula 07
+
+Operadores do JS - Part. 01
+Iremos ver apenas os seguintes operadores, porém tem mais operadores além desses
+
+Operadores:
+aritméticos
+atribuição
+relacionais
+lógicos
+ternário
+
+Operadores: Aritméticos
+" +, -, *, /, %, ** "
+
+Exemplos de Operadores Aritméticos (ver imagem Modulo B - Aula 07 - EX.  Operadores Aritméticos)
+5 + 2 = 7 (Soma)
+5 - 2 = 3 (Subtração)
+5 * 2 = 10 (Multiplicação)
+5 / 2 = 2.5 (Divisão de numeros reais)
+5 % 2 = 1 (Resto da divisão inteira, ver imagem Modulo B - Aula 07 - Resto da divisão *Sempre a divisão Inteira*)
+5 ** 2 = 25 (Potencia, ou seja 5 ao quadrado no caso do exemplo)
+
+**Cuidado**
+5 + 3 / 2 - Não é 4, ele não soma(5+3=8) e depois divide(8/2=4)
+5 + 3 / 2 - Ele divide primeiro(3/2=1.5) e depois soma(5+1.5=6.5)
+
+* Ordem de Precedência * (ver imagem Modulo B - Aula 07 - Ex. Ordem de Precedência)
+ |  ()
+ |  **
+ |  *, /, % (caso tenha dois ou mais operadores desse, ler da ESQ para a DIR)
+ V  +, - (caso tenha dois ou mais operadores desse, ler da ESQ para a DIR)
+
+
+Atribuição Simples - (ver imagem Modulo B - Aula 07 - Ex. Ordem de Precedência)
+Apenas um EX.
+var a = 5 + 3	-> 8
+var b = a % 5	-> 3 (8 / 5 = 1 e sobra 3)
+var c = 5 * b ** 2	-> 45 (3 elevado a 2 = 9 vezes 5 = 45)
+var d = 10 - a / 2	-> 6 ()
+var e = 6 * 2 / d	-> 2 (como os dois tem o mesmo peso, faz o primeiro que apareceu, 6*2 = 12, dividido por 6 = 2)
+var f = b % e + 4 / e	-> 3 (3/2 = 1 e sobra 1, 4/2 = 2, 1 + 2 = 3)
+
+
+Auto atribuições (ver imagem Modulo B - Aula 07 - EX.  Auto Atribuições)
+var n = 3
+n = n + 4 -> 7(n deixa de ser 3 e passa a valer 7, pois n(3) + 4 = 7)
+n = n - 5 -> 2(n deixa de ser 7 e passa a valer 2, pois n(7) - 5 = 2)
+n = n * 4 -> 8(n deixa de ser 2 e passa a valer 8, pois n(2) * 4 = 8)
+n = n / 2 -> 4(n deixa de ser 8 e passa a valer 4, pois n(8) / 2 = 4)
+n = n ** 2 -> 16(n deixa de ser 4 e passa a valer 16, pois n(4) elevado a 2 = 16)
+n = n % 5 -> 1(n deixa de ser 16 e passa a valer 1, pois n(16) / 5 = 3 e sobra 1)
+
+Simplificando as Auto atribuições(ver imagem Modulo B - Aula 07 - EX. Simplificando Auto Atribuições)
+**OBS: SÓ VALE SE FOR, n + alguma coisa, não vale se for n + x + alguma coisa** 
+var n = 8
+n += 4 -> 12
+n -= 5 -> 7
+n *= 4 -> 28
+n /= 2 -> 14
+n **= 2 -> 196
+n %= 5 -> 1
+
+Incremento - ver imagem Modulo B - Aula 07 - Incremento e Pre Incremento
+var x = 5
+x = x + 1 -> x += 1 -> x ++	= 6
+x = x - 1 -> x -= 1 -> x --	= 5

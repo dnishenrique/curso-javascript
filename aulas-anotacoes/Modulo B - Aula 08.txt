@@ -1,0 +1,26 @@
+Modulo B: Aula 08
+
+Operadores do JS - Part. 02
+Iremos ver apenas os seguintes operadores, porém tem mais operadores além desses
+
+Operadores:
+aritméticos
+atribuição
+relacionais
+lógicos
+ternário
+
+Operadores: Relacionais
+">, < , >=, <=, ==, !="
+
+> 	-> maior
+< 	-> menor
+>=	-> maior igual
+<=	-> menor igual
+==	-> igual
+!=	-> diferente
+
+5 > 2
+7 < 4
+8 >= 8
+
