@@ -10,7 +10,7 @@ relacionais
 lógicos
 ternário
 
-Operadores: Relacionais
+Operadores: Relacionais - ver imagem Modulo B - Aula 08 - Operadores Relacionais
 ">, < , >=, <=, ==, !="
 
 > 	-> maior
@@ -18,9 +18,52 @@ Operadores: Relacionais
 >=	-> maior igual
 <=	-> menor igual
 ==	-> igual
-!=	-> diferente
+===	-> identicos(tipo e valor)
+!=	-> diferente(desigual estrito)
+!==	-> desigual estrito
 
-5 > 2
-7 < 4
-8 >= 8
 
+5 > 2	-> true
+7 < 4	-> false
+8 >= 8	-> true
+9 <= 7 	-> false
+5 == 5	-> true
+4 != 4 	-> false
+
+Identidade
+5 == 5		-> true -> Verifica se o valor é igual
+5 == '5'	-> true -> Verifica se o valor é igual
+5 === '5'	-> true -> Verifica se o valor e o tipo são identicos
+5 === 5		-> true -> Verifica se o valor e o tipo são identicos
+
+Operadores: Logicos
+!	-> negação
+&&	-> conjução	-> AND	-> E
+||	-> disjunção	-> OR	-> OU
+
+Negação !
+!true	-> false
+!false	-> true
+
+Conjução && -> só me satisfaz se as duas são verdadeiras
+true	&&	true	-> true
+true	&&	false	-> false
+false	&&	true	-> false
+false	&&	false	-> false
+
+Disjunção || -> me satisfaz se uma for verdadeira
+true	||	true	-> true
+true	||	false	-> true
+false	||	true	-> true
+false	||	false	-> false
+
+** IMPORTANTE ** ver imagem Modulo B - Aula 08 - Operadores IMPORTANTE
+a > b && b % 2 == 0
+
+Quando temos, Operadores 'Aritméticos', 'Relacionais' e 'Lógicos' na mesma expressão, temos a seguinte ordem: Fazemo PRIMEIRO TOODOS os Operadores 'Aritméticos', depois Operadores 'Relacionais' e por fim os Operadores 'Lógicos'
+
+Caso tenha na mesma expressão um && || ou um !
+Primeiro o ! depois o && e por fim o ||
+
+Operadores: Ternario ver imagens Modulo B - Aula 08 - Operadores Ternarios, Modulo B - Aula 08 - Operadores Ternarios ex., Modulo B - Aula 08 - Operadores Ternarios ex. praticos
+? :
