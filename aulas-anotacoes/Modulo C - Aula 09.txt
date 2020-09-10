@@ -1,0 +1,51 @@
+Modulo C: Aula 09
+
+Módulo C: Entendendo o DOM  Aula 9 – Introdução ao DOM
+
+** Importante **
+instalar extenção Live Server no vscode
+
+O que é DOM?
+Document Object Model(Modelo de Objetos para Documentos)
+Basicamente é um conjunto de objetos para o seu navegador, que vai dar acesso aos seus componentes internos do seu Web Site. O DOM, ele não funciona dentro do Node.JS por exemplo, o DOM esta presente quando estou rodando o JavaScript dentro do meu navegador.
+
+
+Arvore DOM ver imagem Modulo C - Aula 09 - ex. de Árvore DOM
+window
+
+
+Selecionando
+por Marca
+por ID
+por Nome
+por Classe
+por Seletor
+
+
+por Marca  -> ver imagem Modulo C - Aula 09 - selecionando com Marca
+getElementsByTagName() => consigo acessar todos os componentes através desse comando
+
+innerHTML - Pega o texto formatado com todas as filhas
+innerText - pega apenas o texto
+
+
+por ID -> ver imagem Modulo C - Aula 09 - selecionando com id
+getElementById()
+
+
+por Nome  -> ver imagem Modulo C - Aula 09 - selecionando com name
+getElementsByName()
+
+
+por Classe  -> ver imagem Modulo C - Aula 09 - selecionando com class
+getElementsByClassName()
+
+
+por Seletor -> ver imagem Modulo C - Aula 09 - selecionando com id
+querySelector()
+querySelectorAll()
+
+
+** Importante **
+toda div é representado por uma #
+toda class é representado por um .
