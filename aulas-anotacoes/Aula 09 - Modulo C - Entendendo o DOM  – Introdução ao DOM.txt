@@ -2,6 +2,8 @@ Modulo C: Aula 09
 
 Módulo C: Entendendo o DOM  Aula 9 – Introdução ao DOM
 
+<- Feito ex005.html que esta na pasta aulas-praticas ->
+
 ** Importante **
 instalar extenção Live Server no vscode
 
@@ -9,12 +11,23 @@ O que é DOM?
 Document Object Model(Modelo de Objetos para Documentos)
 Basicamente é um conjunto de objetos para o seu navegador, que vai dar acesso aos seus componentes internos do seu Web Site. O DOM, ele não funciona dentro do Node.JS por exemplo, o DOM esta presente quando estou rodando o JavaScript dentro do meu navegador.
 
+Sem o DOM teriamos muitas dificuldades de acessar os elementos
+
+Parent e Child
+window é parent de document, e document é child de window
+document é parent de html, e html é child de parent
+ou seja um parent pode ser tanto um child de alguém, como o parent de outro e vice versa
+
 
 Arvore DOM ver imagem Modulo C - Aula 09 - ex. de Árvore DOM
 window
 
+Elementos Parent e Child
+Parent são os equipamentos que vem antes dos child e os child vem depois de parent,
+por exemplo, na imagem Modulo C - Aula 09 - ex. de Árvore DOM
 
-Selecionando
+
+5 rincipais metodos para Selecior o DOM em JS
 por Marca
 por ID
 por Nome

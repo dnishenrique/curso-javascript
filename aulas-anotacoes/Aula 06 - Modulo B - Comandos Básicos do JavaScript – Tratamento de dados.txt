@@ -1,5 +1,7 @@
 Modulo B: Aula 06
 
+Módulo B: Comandos Básicos do JavaScript  Aula 6 – Tratamento de dados
+
 Manipulação de Dados
 
 <- Feito ex002.html que esta na pasta aulas-praticas ->
@@ -11,6 +13,7 @@ Ex.
  window.alert('É um grande prazer te conhecer, ' + nome)
 
 Criei a variavel var nome, e concatenei, junto ao alert, para que o que for escrito em nome, aparece em alert
+
 
 
 <- Feito ex003.html que esta na pasta aulas-praticas ->
@@ -43,7 +46,10 @@ var s = 'JavaScript'
 `Eu estou aprendendo ${s}` //uso a `` não '', pois a `` é delimitação do que chamamos de template string
 ver imagem Modulo B - Aula 06 - Formatando Strings
 
+
+
 <- Feito ex004.html que esta na pasta aulas-praticas ->
+
 document.write = escrevo na tela
 var s = 'JavaScript'
 s.length // quantos caracteres a string tem

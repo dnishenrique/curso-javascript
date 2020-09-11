@@ -1,5 +1,7 @@
 Modulo B: Aula 07
 
+Módulo B: Comandos Básicos do JavaScript - Operadores (Parte1)
+
 Operadores do JS - Part. 01
 Iremos ver apenas os seguintes operadores, porém tem mais operadores além desses
 

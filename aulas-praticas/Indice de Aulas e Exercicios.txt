@@ -1,0 +1,10 @@
+Índice de Aulas e Exercícios
+
+ex001.html	->	Módulo A: Entendendo o DOM  Aula 9 – Introdução ao DOM
+ex002.html	->	Módulo B: Comandos Básicos do JavaScript - Aula 6 – Tratamento de dados
+ex003.html	->	Módulo B: Comandos Básicos do JavaScript - Aula 6 – Tratamento de dados
+ex004.html	->	Módulo B: Comandos Básicos do JavaScript - Aula 6 – Tratamento de dados
+ex005.html	->	Módulo C: Entendendo o DOM  Aula 9 – Introdução ao DOM
+ex006.html	->	Módulo C: Entendendo o DOM  Aula 10 – Eventos DOM
+
+

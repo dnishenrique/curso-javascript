@@ -1,0 +1,41 @@
+Modulo C: Aula 10
+
+Módulo C: Entendendo o DOM  Aula 10 – Eventos DOM
+
+<- Feito ex006.html que esta na pasta aulas-praticas ->
+
+Eventos DOM - tudo aquilo que pode acontecer com a div
+EX. - movimento do mouse em uma <div>
+mouseeenter, mousemove, mousedown, mouseup, click, mouseout
+
+pediu para acessar o site https://developer.mozilla.org/pt-BR/docs/Web/Events
+
+Funções (Function)
+Função é javascript, é um conjunto de linhas, que serão executadas somente quando o evento ocorrer.
+
+EX. programei 10 linhas(Bloco), elas não serão executadas automaticamente, só irá ser executada quando o evento ocorrer
+
+um bloco em JS é delimitado pr chaves {}
+EX.
+function ação(parametros){
+  bloco
+}
+
+
+Posso passar os parametros diretos na div
+html...
+<div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+
+como posso passar o paramentro direto no script, usando o addEventListener, e com isso deixar o html mais limpo
+script...
+a.addEventListener('click', clicar)
+a.addEventListener('mouseenter', entrar)
+a.addEventListener('mouseout', sair)
+
+Como descobrir quando vc errou
+basta usar o inspecionar
+
+
+
+<- Feito ex007.html que esta na pasta aulas-praticas ->
+ver o codigo do ex007.html esta comentado
