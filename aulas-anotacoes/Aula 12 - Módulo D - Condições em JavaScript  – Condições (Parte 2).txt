@@ -1,0 +1,35 @@
+Módulo D: Aula 12
+
+Módulo D: Condições em JavaScript  Aula 12 – Condições (Parte 2)
+
+ver em conjunto o arquivo word,  Modulo D - Aula 11 e 12
+
+Condições = if e else -> ver imagem Modulo D - Aula 11 - Condições
+
+Condições Simples, é o if sem o else - ver ex008.js e o ex010.html
+if (condição) {
+	true
+}
+
+Condições Composta, é o if com o else - ver ex009.js e o ex011.html
+if (condição) {
+	true
+} else {
+	false
+}
+
+
+Condições Aninhadas -> ver imagens no arquivo word,  Modulo D - Aula 11 e 12
+permite colocar uma condição dentro da outra condição
+
+
+
+<- Feito ex011.js que esta na pasta aulas-praticas ->
+
+
+<- Feito ex012.js que esta na pasta aulas-praticas ->
+
+
+Condição multiplas ver exemplo ex013.js
+<- Feito ex013.js que esta na pasta aulas-praticas ->
+Importante NUNCA ESQUEÇA O BREAK no switch
