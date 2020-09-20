@@ -1,0 +1,21 @@
+
+
+Estruturas de controle
+* Sequências
+
+* Condições
+true or false
+
+* Repetições ou laços
+duas possibilidade(true or false)
+
+Quando true, será feito repetição em quanto o item for verdadeiro
+
+Quando se torna false, o laço é quebrado e da continuidade ao codigo
+
+ver estrutura de laço na imagem Modulo E - Aula 13 - Estrutura de Repetições
+
+while = enquanto
+sem que ver essa palavra considerar com "Enquanto"
+
+ver exemplo pizza - imagem 

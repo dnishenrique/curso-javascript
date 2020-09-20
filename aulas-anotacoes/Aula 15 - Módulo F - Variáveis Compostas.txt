@@ -1,0 +1,29 @@
+Módulo F: Avançando os estudos em JavaScript
+
+Módulo F - Aula 15 – Variáveis Compostas
+
+Variaveis 
+Conceito fundamental de variaveis compostas
+Variaveis Simples, só conseguem armazenar um valor por vez.
+
+Variaves compostas, dever ser capazes de armazena varios valores em uma mesma estrutura.
+
+ver imagem Modulo F - Aula 15 - Variaveis Compostas - ex. var simples
+
+sempre colocar nomes claros nos nomes das variaveis
+
+*** IMPORTANTE *** 
+" ARRAY(em pt = vetor) ou uma variavél composta, é uma variavel que tem varios ELEMENTOS, cada ELEMENTO é composto pelo seu valor e por uma chave(KEY) de identificação. "
+ver imagem Modulo F - Aula 15 - Variaveis Compostas - array, elemento, ind, con
+
+
+Fazer buscas
+num.indexOf(7) = ele retorna a posição do numero
+num.indexOf(3) = se ele não encontrar ele retorna -1
+
+ver documento
+<- Feito ex015.js que esta na pasta aulas-praticas ->
+
+<- Feito ex015_vetornatela.js que esta na pasta aulas-praticas ->
+
+<- Feito ex015_buscarvetor.js que esta na pasta aulas-praticas ->
