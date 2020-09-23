@@ -1,0 +1,19 @@
+Módulo F: Avançando os estudos em JavaScript
+
+Módulo F - Avançando os estudos em JavaScript - Aula 17 – Próximos Passos
+
+
+Trabalhando com objetos
+Declarando um objeto - Para declarar um objeto uso as {}
+
+ver imagem - Modulo F - Aula 17 - objetos
+
+let amigo {
+
+} 
+
+
+** Em JS
+um array é um objeto
+e um objeto é um objeto
+
